@@ -1,0 +1,93 @@
+## SCL Builder Setup File: Do not edit!!
+
+## VERSION: 3.60.00.00
+## FORMAT:  v2.00.01
+## DEVICE:  PIC16F886
+
+## PINREGACTIONS
+cyc
+No Repeat
+--
+&
+## ADVPINREGACTIONS
+--
+&
+--
+COND1
+Any
+
+
+
+
+
+
+--
+&
+## CLOCK
+&
+## STIMULUSFILE
+&
+## RESPONSEFILE
+&
+## ASYNCH
+Pin
+RC2
+Toggle
+
+RTS (L: AGREE; H: DISAGREE)
+-1
+--
+Pin
+RC1
+Toggle
+
+SLEEP(L:DEASSERT; H:ASSERT)
+-1
+--
+Pin
+RB1
+Toggle
+
+PwrHiWire
+-1
+--
+Pin
+RB2
+Toggle
+
+PwrLoWire
+-1
+--
+Pin
+RE3
+Toggle
+
+testButton
+-1
+--
+Pin
+RB0
+Toggle
+
+Fgout
+-1
+--
+Pin
+RB1
+Toggle
+
+PwrHiWire
+-1
+--
+Pin
+RB2
+Toggle
+
+PwrLoWire
+-1
+--
+&
+## ADVANCEDSCL
+
+0
+&
