@@ -1,7 +1,7 @@
 # Pic16
 status
  - (/) clone
- - (o) pull
+ - (/) pull,push,commit
 
 **clone**
 
