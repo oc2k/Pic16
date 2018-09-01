@@ -1,0 +1,47 @@
+#Pic16n1(f886)nRF24AP2__180828a
+#Pic16n1 as work folder
+#TOP LATEST (create in 28/08/2018)
+...
+^ -- remove ant relevant, include folder, file and function call
+^ -- remove i2cm library (due to) without gs and zmd device
+^ -- remove gs relevant, include folder, file and function call
+  relevant folder list:
+  1. gs
+  file list:
+  1. gsDefines.h
+  2. gsInterface (c,h)
+  3. gsL3G4200D (c,h)
+  4. ant_Bps (c,h)
+  function call:
+  
+  
+	^ -- remove zmd folder and zmd31014 (c,h,defs)
+	  relevant 5files list
+	  1. zmd31014 (c,h)
+	  2. zmdDefines.h
+	  3. zmdInterface (c,h)
+	  function list:
+	  1. initZmdCommand -- romove it in main.c
+	  2. aZmdStmCM* -- romove it in main.c
+	  3. aZmdStmNOM* -- romove it in main.c
+	  4. bZmdNormalMode* -- internal
+	  5. bZmd_Push* -- internal
+	  6. aIfI2cm_zmdCom* -- romove it in main.c
+	  remove relevant files from folder and mcp (project file)
+	  #
+		^ -- change E5-Inc... to oc2k, project name change to #Pic16, and change picinfo.ini
+#ignore file list:
+1. main.* (exclude main.c)
+2. oc2k.* (exclude oc2k.mcp)
+#end of ignore list
+  -- keep below basic info
+# --Initial (zmd,gs,ant)--
+#development environment
+#
+	winxp
+	Mercurial as version control tools
+	mplabIDE
+	Picc compiler v8.02PL1
+	microcontroller: pic16f886
+	ant plus ic: nRF24AP2
+#END
