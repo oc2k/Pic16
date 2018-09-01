@@ -1,7 +1,8 @@
-# Pic16
+# Pic16a1
 status
  - (/) clone
  - (/) pull,push,commit
+ - (/) add file, folder and last hex file output
 
 **clone**
 
