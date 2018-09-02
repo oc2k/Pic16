@@ -1,15 +1,16 @@
 Pic16a1(f886)nRF24AP2__180830a
 ====
-* recoder (TOP LATEST)
+# recoder (TOP LATEST)
 - ...
 - //01SEP2018 skel v0,9 -> Pic16a1 (/)
--
+----
+# skeleton revision
 + -- skeleton (revision v0,9)
-+		-- skeleton (revision v0,1)
-
-
-* - Pic16 toolkit (uart,TxSW)
-*
++		-- skeleton (v0,1 as first revision)
+# pic16 toolkit 
+* - uart
+* - TxSW
+* - (...)
 # standard build all procedure
 *	1. build all
 *	2. success
