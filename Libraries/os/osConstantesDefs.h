@@ -40,7 +40,7 @@
 // ===================
 // SklBL: skeleton Baseline with sci&a2d
 // BaseBL: Baseline with base function (e.g.: i2cm, PWM, etc.)
-// DrvBL: Baseline with drive function (e.g.: ANT, DEV, GS, ..etc.)
+// DrvBL: Baseline with drive function (e.g.: ANT, DEV2, DEV1, ..etc.)
 // Done, called Project Baseline code
 // ===================
 // After that Add HMI, STM, Application code

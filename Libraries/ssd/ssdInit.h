@@ -41,7 +41,7 @@
 //(3)RC2 -- _IsHwAntRtsAGREE, ANT RTS
 //(4)RC3 -- SCL (I2CM)
 //(5)RC4 -- SDA (I2CM)
-//(6)RC5 -- IsHwGsINT
+//(6)RC5 -- IsHwDev1INT
 //(7)RC6 -- TX (SCI)
 //(8)RC7 -- RX (SCI)
 

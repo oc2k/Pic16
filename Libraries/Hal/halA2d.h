@@ -87,8 +87,8 @@
 	ADCON1 = ADFM_Adjustify | VCFG_NegRefPIN | VCFG_PosRefPIN ;
 
 // =====================================
-//(1)AN0 --  0K2E Battery Measurement
-//(2)AN1 --  0K2E Reference voltage Measurement
+//(1)AN0 --  Battery Measurement
+//(2)AN1 --  Reference voltage Measurement
 //(3)AN2 --  
 //(4)AN3 --
 //(5)AN4 --  

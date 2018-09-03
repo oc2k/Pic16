@@ -40,14 +40,14 @@
 //------------------------------------------------
 
 //------------------------------------------------
-//-4.4- GS MODULE control, REFER TO HalGS.h
+//-4.4- DEV1 MODULE control, REFER TO HalDEV1.h
 //------------------------------------------------
-//--> Data READY (from GS)
-#define _IsHwGsDR			(RA5)
-//--> Wakeup GS (to GS)
-#define IsHwGsINT			(!RC5)
-#define _HwGsINTon()		(RC5=0)
-#define _HwGsINToff()		(RC5=1)
+//--> Data READY (from DEV1)
+#define _IsHwDev1DR			(RA5)
+//--> Wakeup DEV1 
+#define IsHwDev1INT			(!RC5)
+#define _HwDev1INTon()		(RC5=0)
+#define _HwDev1INToff()		(RC5=1)
 
 //------------------------------------------------
 //-4.5- A2d control, REFER TO HalA2d.h

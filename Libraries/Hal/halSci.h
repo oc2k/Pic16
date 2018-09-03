@@ -92,9 +92,6 @@ typedef  struct TxBufferStruct{
 //======================================
 // (7) Initial Process
 //======================================
-// Reference Design Document: 038-03-02-11-EUsartBaudrateCalculation.xls
-// Reference Document Location: D:\fja2009c\0J3J_ANT\038-DesignRecord
-//======================================
 #define BAUD                9600
 #define UART_ADJUST_UNIT    -1 // SELECT={-4,*-3,*-2,-1,0,1,2,3,4}
 

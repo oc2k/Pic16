@@ -15,6 +15,12 @@ oc2k.sym
 # MPLAB IDE WORKSPACE
 untitled.mcw
 
+#### VERSION CONTROL SECTION ####
+#ignore files
+.hgignore
+#mercurial folder
+.hg/
+
 #### HARDWARE SECTION ####
 
 #### DOCUMENTS SECTION ####
