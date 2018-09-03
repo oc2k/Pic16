@@ -2,6 +2,7 @@ Pic16a1(f886)nRF24AP2__180830a
 ====
 # recoder (TOP LATEST)
 - ...
+- //03SEP2018 CLONE PROJECT FOLDER and zip as release
 - //03SPE2018 as release nRF24AP2 Project skeleton revision
 - //01SEP2018 skel v0,9 -> Pic16a1 (/)
 ----
