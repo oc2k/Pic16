@@ -1,8 +1,13 @@
-Pic16a1(f886)nRF24AP2__180830a
+Pic16a1(f886)nRF24AP2__180904a
 ====
 # recoder (TOP LATEST)
 - ...
-- //03SEP2018 CLONE PROJECT FOLDER and zip as release
+- //04SEP2018 ANT library v0,1
+1. added ant folder and include ant head in main file
+2. added antInterface (c,h) interface files to if folder
+3. added halAnt(c,h) hal file to hal folder
+4. added ant files include in main.c file
+- //03SEP2018 CLONE PROJECT FOLDER and zip as release (#Pic16n1(f886)nRF24AP2__180830a.hex)
 - //03SPE2018 as release nRF24AP2 Project skeleton revision
 - //01SEP2018 skel v0,9 -> Pic16a1 (/)
 ----

@@ -35,6 +35,9 @@
 //->Library debugging defined
 //#define I2CM_DEBUGGING_PROCESSING
 // Condition: the "UART_DEBUGGING_PROCESSING" disable
+// ----
+// Baseline version: !compile(yymmdd#_0J3J)_AntPlus_D
+#define ANTPLUS_DEBUGGING_CODE
 // ===================
 // Baseline period: SklBL->BaseBL->DrvBL
 // ===================
@@ -43,6 +46,8 @@
 // DrvBL: Baseline with drive function (e.g.: ANT, DEV2, DEV1, ..etc.)
 // Done, called Project Baseline code
 // ===================
+// AntProject defines
+//#define ANT_BPS_PROJECTCODE
 // After that Add HMI, STM, Application code
 // Done, called Project full function code
 // ===================

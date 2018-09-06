@@ -22,9 +22,31 @@
 // --------------
 
 // --------------
+// ANT+ Defined Header
+// --------------
+#include "./libraries/ant/antTypes.h"
+#include "./libraries/ant/antCommonPages.h"
+#include "./libraries/ant/antDefines.h"
+#include "./libraries/ant/antPlus.h"
+#include "./libraries/ant/antMessage.h"
+
+// --------------
+// ANT+ HAL Header
+// --------------
+#include "./libraries/hal/halAnt.h"
+#if defined(SERIAL_UART_ASYNC) || defined (SERIAL_UART_ASYNC)
+	#include "./libraries/hal/halAntAsync.h"
+#endif
+
+// --------------
 // Interface Header
 // --------------
+#include "./libraries/if/antInterface.h"
 #include "./libraries/if/sciINTERFACE.h"
+
+// --------------
+// ANT+ Application Header
+// --------------
 
 // --------------
 // Internal clock Header File
@@ -35,6 +57,7 @@
 // System Implement File
 // --------------
 #include "./libraries/os/osTools.c"
+#include "./libraries/os/antTools.c"
 #include "./libraries/os/osSkeleton.c"
 #include "./libraries/ssd/ssdInit.c"
 #include "./libraries/per/perPicee.c"
@@ -46,8 +69,17 @@
 // --------------
 
 // --------------
+// ANT+ HAL Implement File
+// --------------
+#include "./libraries/hal/halAnt.c"
+#if defined(SERIAL_UART_ASYNC) || defined (SERIAL_UART_ASYNC)
+	#include "./libraries/hal/halAntAsync.c"
+#endif
+
+// --------------
 // Interface Implement File
 // --------------
+#include "./libraries/if/antInterface.c"
 #include "./libraries/if/sciINTERFACE.c"
 
 // --------------
